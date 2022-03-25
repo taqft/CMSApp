@@ -4,7 +4,7 @@
 // Uses the Dotenv package to load environmental variables from a .env file into process.env. 
 require('dotenv').config();
 const inquirer = require('inquirer');
-const connection = require('./config');
+// const connection = require('./config');
 const consoleTable = require('console.table');
 
 const choices = [
@@ -16,22 +16,27 @@ const choices = [
   'Add An Employee',
   'Update An Employee Role',
   'Exit'
-];
+]
 
-// TODO: convert to async function
 const init = () => {
+  
+  greeting();
+
   inquirer
     .prompt([{
       type: 'list',
       message: 'Which option would you like?',
       name: 'choice',
-      choices: choices
-    }]).then(async(response) => {
-      const userChoice = response.choice;
+      choices: choices,
+      default () {
+        return 'View All Departments';
+      }
+    }]).then((response) => {
+      let userChoice = response.choice;
       switch (userChoice) {
         case choices[7]: // User wishes to exit
           console.log('Exiting...');
-          connection.end(); // resolve remaining queries and disconnect from mysql
+          // connection.end(); // resolve remaining queries and disconnect from mysql
           process.exit(); // exit the node js program
         case choices[0]: // View All Departments
           // something
@@ -63,8 +68,15 @@ const init = () => {
           break;
         default: // Exit
           console.log('Exiting default...');
-          connection.end(); // resolve remaining queries and disconnect from mysql
+          // connection.end(); // resolve remaining queries and disconnect from mysql
           process.exit(); // exit the node js program
+      }
+    })
+    .catch((error) => {
+      if (error.isTtyError) {
+        console.log(`Error: Prompt couldn't be rendered in the current environment`);
+      } else {
+        console.log(`Error: ${error}`);
       }
     })
 }
@@ -96,5 +108,4 @@ $$$$$$$$\\ $$ | $$ | $$ |$$$$$$$  |$$ |\\$$$$$$  |\\$$$$$$$ |\\$$$$$$$\\ \\$$$$$
                                                         `);
 }
 
-greeting();
 init();
