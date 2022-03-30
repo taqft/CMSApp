@@ -349,7 +349,8 @@ const updateEmployeeRole = async () => {
         const employeeRoleData = [response.newRole, response.employee];
         const employeeRoleUpdate = 'UPDATE employee SET role_id = ? WHERE id = ?;';
         connection.query(employeeRoleUpdate, employeeRoleData);
-        console.log(`Employee's role was updated successfully.`);
+        console.log(`
+        Employee's role was updated successfully.`);
         viewAllEmployees();
       } catch (error) {
         console.log(`Error: ${error}`);
