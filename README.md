@@ -26,7 +26,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/theresaqueryforthat/CMSApp">
+  <a href="https://github.com/taqft/CMSApp">
     <img src="assets/images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -37,9 +37,9 @@
     <br />
     <a href="https://i.imgur.com/QdIkR4f.gif/">View Demo</a>
     ·
-    <a href="https://github.com/theresaqueryforthat/CMSApp/issues">Report Bug</a>
+    <a href="https://github.com/taqft/CMSApp/issues">Report Bug</a>
     ·
-    <a href="https://github.com/theresaqueryforthat/CMSApp/issues">Request Feature</a>
+    <a href="https://github.com/taqft/CMSApp/issues">Request Feature</a>
   </p>
 </div>
 
@@ -57,7 +57,7 @@
 
 * Built with NodeJS and Inquirer.js, this simple app allows you to interface with a company database for managing employees. I worked on this to easily view and manipulate database information through content management systems (CMS), and to serve as a base for future improvements and features to make our lives easier.
 
-* This README file was generated with [auto-readme](https://github.com/theresaqueryforthat/auto-readme/)! Go check it out if you're interested in learning more!
+* This README file was generated with [auto-readme](https://github.com/taqft/auto-readme/)! Go check it out if you're interested in learning more!
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -92,7 +92,7 @@ Don't forget to give the project a star if you liked it!
 
 * Have questions?
 * Reach out to me: 
-* https://github.com/theresaqueryforthat/
+* https://github.com/taqft/
 * [ben.koenig512@outlook.com](mailto:ben.koenig512@outlook.com "My contact Email")
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -108,16 +108,16 @@ Don't forget to give the project a star if you liked it!
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/theresaqueryforthat/CMSApp.svg?style=for-the-badge
-[contributors-url]: https://github.com/theresaqueryforthat/CMSApp/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/theresaqueryforthat/CMSApp.svg?style=for-the-badge
-[forks-url]: https://github.com/theresaqueryforthat/CMSApp/network/members
-[stars-shield]: https://img.shields.io/github/stars/theresaqueryforthat/CMSApp.svg?style=for-the-badge
-[stars-url]: https://github.com/theresaqueryforthat/CMSApp/stargazers
-[issues-shield]: https://img.shields.io/github/issues/theresaqueryforthat/CMSApp.svg?style=for-the-badge
-[issues-url]: https://github.com/theresaqueryforthat/CMSApp/issues
-[license-shield]: https://img.shields.io/github/license/theresaqueryforthat/CMSApp.svg?style=for-the-badge&cacheSeconds=3600
-[license-url]: https://github.com/theresaqueryforthat/CMSApp/blob/main/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/taqft/CMSApp.svg?style=for-the-badge
+[contributors-url]: https://github.com/taqft/CMSApp/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/taqft/CMSApp.svg?style=for-the-badge
+[forks-url]: https://github.com/taqft/CMSApp/network/members
+[stars-shield]: https://img.shields.io/github/stars/taqft/CMSApp.svg?style=for-the-badge
+[stars-url]: https://github.com/taqft/CMSApp/stargazers
+[issues-shield]: https://img.shields.io/github/issues/taqft/CMSApp.svg?style=for-the-badge
+[issues-url]: https://github.com/taqft/CMSApp/issues
+[license-shield]: https://img.shields.io/github/license/taqft/CMSApp.svg?style=for-the-badge&cacheSeconds=3600
+[license-url]: https://github.com/taqft/CMSApp/blob/main/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [product-screenshot]: assets/images/demo.gif
 [portfolio-shield]: https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white
