@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/theresaqueryforthat/CMSApp.git"
+    "url": "git+https://github.com/taqft/CMSApp.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/theresaqueryforthat/CMSApp/issues"
+    "url": "https://github.com/taqft/CMSApp/issues"
   },
-  "homepage": "https://github.com/theresaqueryforthat/CMSApp#readme",
+  "homepage": "https://github.com/taqft/CMSApp#readme",
   "dependencies": {
     "console.table": "^0.10.0",
     "dotenv": "^16.0.0",
